@@ -61,5 +61,4 @@ jobs:
         with:
           files: |
             dist/**/net-health_*
-            dist/**/*.sha256
 
