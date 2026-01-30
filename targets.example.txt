@@ -1,0 +1,45 @@
+# format: group url [label]
+# ---- core lightweight checks ----
+core https://www.gstatic.com/generate_204 gstatic_204
+core https://www.google.com/generate_204 google_204
+core https://connectivitycheck.gstatic.com/generate_204 android_204
+core https://captive.apple.com/hotspot-detect.html apple_captive
+core https://www.microsoft.com microsoft
+
+# ---- CDN / Edge ----
+cdn https://www.cloudflare.com cloudflare
+
+# ---- Cloud providers ----
+cloud https://aws.amazon.com aws
+cloud https://azure.microsoft.com/en-us azure
+
+# ---- VPS / Datacenter / Hosting ----
+dc https://www.hetzner.com hetzner
+dc https://www.ovhcloud.com ovh
+dc https://www.digitalocean.com digitalocean
+dc https://www.vultr.com vultr
+dc https://www.scaleway.com scaleway
+
+# ---- dev / repos ----
+dev https://github.com github
+dev https://pypi.org pypi
+dev https://www.debian.org debian
+dev https://ubuntu.com ubuntu
+dev https://hub.docker.com docker_hub
+
+# ---- general international ----
+intl https://www.wikipedia.org wikipedia
+
+# ---- domestic (Iran) ----
+domestic https://www.aparat.com aparat_ir
+domestic https://www.digikala.com digikala_ir
+domestic https://www.irna.ir irna_ir
+
+# ---- filtered (alert if opens) ----
+filtered https://twitter.com twitter
+filtered https://www.facebook.com facebook
+filtered https://www.youtube.com youtube
+filtered https://www.reddit.com reddit
+filtered https://t.me telegram_web
+filtered https://telegram.org telegram_org
+
